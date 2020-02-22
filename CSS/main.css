@@ -1,0 +1,73 @@
+html {
+    background: beige;
+    color:#232147;
+    font-family: arial, cinzel, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.class1 {
+    padding: 30px;
+    margin: 30px;
+    border: 5px solid black;
+    border-radius: 5px;
+    text-decoration:underline overline blue dotted;
+}
+
+.class2 {
+    background: grey;
+    position: fixed;
+    top: 0;
+    left 0;
+    height: 10%;
+    width: 30%;
+}
+
+.class3{
+    opacity: 0.5;
+    visibility: hidden;
+    display: none;
+    z-index: 3;
+}
+
+.class4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.class5{
+    animation: 1s spin infinite ease-in-out;
+}
+
+@keyframes spin {
+    0% {
+        Transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header{
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+    border-radius: 5px;
+    text-decoration: overline underline wavy darkblue;
+}
+
+.flextest{
+    display: flex;
+    align-items: center;
+    border: 5px solid brown;
+}
+
+
